@@ -14,7 +14,7 @@ class Counter extends Component {
     render() { 
         return ( <div>
             <h1> This count is {this.state.value}</h1>
-            <button onClick = {this.handleClick} style = { { backgroundColor: 'blue'} }>Increment Counter </button>
+            <button onClick = {this.handleClick} style = { { backgroundColor: 'blue'}} >Increment Counter </button>
         </div> );
     }
 }
