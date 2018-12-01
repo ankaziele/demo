@@ -7,7 +7,7 @@ class App extends Component {
     return (
       <div data-test="component-app">
        <h1 data-test="counter-display" data-test="counter-starts">The counter is curently</h1>
-       <button data-test="increment button">Increment Counter</button>
+       <button data-test="increment-button">Increment Counter</button>
       </div>
     );
   }
